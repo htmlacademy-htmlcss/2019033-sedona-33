@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Моргунов](https://up.htmlacademy.ru/htmlcss/33/user/2019033).
-* Наставник: [Андрей Чепулис](https://htmlacademy.ru/profile/id240237)
+* Наставник: [Андрей Чепулис](https://htmlacademy.ru/profile/id240237).
 
 ---
 
