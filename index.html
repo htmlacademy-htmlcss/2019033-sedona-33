@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -12,7 +13,9 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="">Logo</a>
+            <a class="navigation-link" href="">
+              <img src="images/logo.svg" width="139" height="70" alt="логотип седона">
+            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link navigation-link-current" href="">Главная</a>
@@ -44,12 +47,16 @@
     <main class="page-main">
       <div class="welcome">
         <p class="visualli-hidden">welcome to the gorgeous</p>
-        <img class="welcome-img" src="" alt="надпись welcome">
-        <img class="subwelcome-img" src="" alt="надпись to the gorgeous">
+        <img class="welcome-img" src="images/welcome.png" width="187,7" height="44,7" alt="надпись welcome">
+        <img class="subwelcome-img" src="images/to_the_gorgeus.png" width="256" height="28,78"
+          alt="надпись to the gorgeous">
         <h1 class="visually-hidden">Sedona</h1>
-        <img class="sedona-img" src="" alt="Sedona 'Because the Grand Canyon sucks'">
-        <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        <img class="sedona-img" src="images/sedona.png" width="456,7" height="212,77"
+          alt="Sedona 'Because the Grand Canyon sucks'">
+      </div>
+      <div class="welcome-text">
+        <p class="welcome-text-up">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="welcome-text-down">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
       </div>
       <section class="advantages">
         <h2 class="visualli-hidden">Преимущества</h2>
@@ -58,7 +65,7 @@
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-number">— №1 —</p>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="" alt="photo-1">
+            <img src="images/photo1.jpeg" width="800" height="384" alt="photo-2">
           </li>
           <li class="adventage-item">
             <h3 class="advantages-title">Жильё</h3>
@@ -73,7 +80,7 @@
             <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
           <li class="advantages-item">
-            <img src="" alt="photo-2">
+            <img src="images/photo2.jpeg" width="800" height="384" alt="photo-2">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-number">— №2 —</p>
             <p class="advantages-description">Все достопримечательности находятся очень близко</p>
@@ -105,7 +112,7 @@
       </section>
     </main>
     <footer class="page-footer">
-      <section class="newsletter">
+      <section class="page-newsletter">
         <h2 class="visualli-hidden">Рассылка</h2>
         <p class="subscribe-text-title">Подпишитесь на рассылку</p>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -126,7 +133,7 @@
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button" href="#">
+            <a class="social-button facebook" href="#">
               <span class="visualli-hidden">Фейсбук</span>
             </a>
           </li>
@@ -136,8 +143,12 @@
             </a>
           </li>
         </ul>
-        <p class="contact-tel">+7 (812) 812-12-12</p> <!-- если понадобится, переделаю в ссылку -->
-        <a class="htmlacademy-link" href="https://htmlacademy.ru">.htmlacademy</a>
+        <p class="contact-tel">+7 (812) 812-12-12</p>
+        <!-- <a class="htmlacademy-link" href="https://htmlacademy.ru">.htmlacademy</a> -->
+        <a class="button" href="#">
+          <span class="visualli-hidden">htmlacademy</span>
+          <img src="images/html_academy.svg" width="115" height="34" alt="htmlacademy">
+        </a>
       </div>
     </footer>
   </div>
