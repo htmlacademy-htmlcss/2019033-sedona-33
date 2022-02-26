@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -12,16 +13,18 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="">Logo</a>
+            <a class="navigation-link" href="">
+              <img src="images/logo.svg" width="139" height="70" alt="логотип седона">
+            </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="">Главная</a>
+            <a class="navigation-link navigation-link-current" href="">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="">Гостиницы</a>
+            <a class="navigation-link" href="">Гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -47,6 +50,8 @@
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">Главная</a>
+            <img src="images/list_2/icon_home.svg" width="12" height="12" alt="иконка домик">
+          </a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы</a>
@@ -112,7 +117,7 @@
       <ul class="hotel-card-list">
         <li class="hotel-card-item">
           <a class="hotel-card-link" href="#">
-            <img class="hotel-card-image" src="" alt="">
+            <img class="hotel-card-image" src="images/hotel_1.jpeg" width="300" height="206" alt="Amara Resort & Spa">
             <h3 class="hotel-card-title">Amara Resort & Spa</h3>
           </a>
           <p class="hotel-card-type">Гостиница</p>
@@ -126,7 +131,7 @@
         </li>
         <li class="hotel-card-item">
           <a class="hotel-card-link" href="#">
-            <img class="hotel-card-image" src="" alt="">
+            <img class="hotel-card-image" src="images/hotel_2.jpeg" width="300" height="206" alt="Desert Quail Inn">
             <h3 class="hotel-card-title">Desert Quail Inn</h3>
           </a>
           <p class="hotel-card-type">Гостиница</p>
@@ -140,7 +145,7 @@
         </li>
         <li class="hotel-card-item">
           <a class="hotel-card-link" href="#">
-            <img class="hotel-card-image" src="" alt="">
+            <img class="hotel-card-image" src="images/hotel_3.jpeg" width="300" height="206" alt="Villas at Poco Diablo">
             <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
           </a>
           <p class="hotel-card-type">Гостиница</p>
@@ -154,7 +159,7 @@
         </li>
         <li class="hotel-card-item">
           <a class="hotel-card-link" href="#">
-            <img class="hotel-card-image" src="" alt="">
+            <img class="hotel-card-image" src="images/hotel_4.jpeg" width="300" height="206" alt="GreenTree Inn">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
           </a>
           <p class="hotel-card-type">Гостиница</p>
@@ -221,7 +226,7 @@
             </a>
           </li>
           <li class="footer-social-item">
-            <a class="button" href="#">
+            <a class="social-button facebook" href="#">
               <span class="visualli-hidden">Фейсбук</span>
             </a>
           </li>
@@ -231,8 +236,12 @@
             </a>
           </li>
         </ul>
-        <p class="contact-tel">+7 (812) 812-12-12</p> <!-- если понадобится, переделаю в ссылку -->
-        <a class="htmlacademy-link" href="https://htmlacademy.ru">.htmlacademy</a>
+        <p class="contact-tel">+7 (812) 812-12-12</p>
+        <!-- <a class="htmlacademy-link" href="https://htmlacademy.ru">.htmlacademy</a> -->
+        <a class="button" href="#">
+          <span class="visualli-hidden">htmlacademy</span>
+          <img src="images/html_academy.svg" width="115" height="34" alt="htmlacademy">
+        </a>
       </div>
     </footer>
   </div>
